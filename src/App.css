@@ -1,22 +1,140 @@
-.App {
+p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Fjalla One',sans-serif;
+}
+
+.header-color {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* Landing Page */
+.landing-grid {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Projects Page */
+.projects-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.project-background {
+  width: 450px;
+  margin:auto;
 }
 
-.App-link {
-  color: #09d3ac;
+/* Resume Page */
+.resume-body {
+  padding-top: 2em;
+}
+
+.resume-body h2, h4, h5 {
+  font-family: 'Fjalla One',sans-serif;
+}
+
+.resume-body p {
+  font-family: 'Oxygen',sans-serif;
+}
+
+.resume-right-col {
+  background: #01ABAA;  /* fallback for old browsers */
+  color:white;
+  padding: 2em;
+}
+
+/* Contact Page */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-top: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Fjalla One',sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-text {
+  background-color: white;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  color: black;
+}
+
+.banner-text hr {
+  border-top: 6px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: black;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 3em;
+  padding: 8px;
 }
